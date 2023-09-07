@@ -1,5 +1,5 @@
-import request from "supertest";
-import server from "../index";
+const request = require("supertest");
+const server = require("../index");
 
 describe("Operaciones CRUD de cafes", () => {
   //     Testea que la ruta GET /cafes devuelve un status
